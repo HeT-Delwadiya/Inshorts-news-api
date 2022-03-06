@@ -1,0 +1,27 @@
+{
+       "name": "inshorts-news-api",
+       "version": "1.0.0",
+       "description": "A node package to get news from inshorts api.",
+       "main": "index.js",
+       "scripts": {
+              "test": "echo \"Error: no test specified\" && exit 1"
+       },
+       "repository": {
+         "type": "git",
+         "url": "git+https://github.com/HeT-Delwadiya/Inshorts-news-api.git"
+       },
+       "keywords": [
+              "inshorts",
+              "news",
+              "indian news",
+              "news",
+              "api",
+              "news api"
+       ],
+       "author": "HeT",
+       "license": "MIT",
+       "dependencies": {
+              "cheerio": "^1.0.0-rc.10",
+              "node-fetch": "^3.2.1"
+       }
+}
