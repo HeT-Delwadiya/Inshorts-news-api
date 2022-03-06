@@ -162,4 +162,4 @@ Response
 ```
 ## About Me
 
-By <a href="https://www.linkedin.com/in/het-delwadiya/" target="_blank">Het Delwadiya</a>
+<a href="https://www.linkedin.com/in/het-delwadiya/" target="_blank">Het Delwadiya</a>
