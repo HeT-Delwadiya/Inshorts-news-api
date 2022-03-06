@@ -1,6 +1,6 @@
 {
        "name": "inshorts-news-api",
-       "version": "1.0.3",
+       "version": "1.0.4",
        "description": "A node package to get news from inshorts api.",
        "main": "index.js",
        "scripts": {
