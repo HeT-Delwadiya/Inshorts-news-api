@@ -162,6 +162,4 @@ Response
 ```
 ## About Me
 
-<p align="center">
-	With :heart: by <a href="https://www.linkedin.com/in/het-delwadiya/" target="_blank">Het Delwadiya</a>
-</p>
+By <a href="https://www.linkedin.com/in/het-delwadiya/" target="_blank">Het Delwadiya</a>
