@@ -1,5 +1,5 @@
 # Inshorts-news-api
- A node package to gets news from Inshorts.
+ A node package to get news from Inshorts.
 
 ## Installation
 Install using npm:
