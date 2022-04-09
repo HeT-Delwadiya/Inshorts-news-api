@@ -36,7 +36,7 @@ var options = {
 inshorts.getMoreNews(options, function(result, news_offset){
   console.log(result);
   console.log(news_offset);
-});
+}); 
 ```
 Pass the 'options' object as a parameter to this function. Define keys lang, category for getNews which will be called first time and will return 25 news posts with 1 unique key. this unique key will be used in getMorePosts which will return next 25 news posts and updated unique key.
 
