@@ -30,9 +30,9 @@ const getNews = (options, callback) => {
 
 			const time = $element.find('div.news-card-title div.news-card-author-time span.time').text();
 
-			const date = $element.find('div.news-card-author-time').children().last().text();
+			const date = $element.find('div.news-card-author-time span.date').text();
 
-			const createdAt = `${time} ${date}`;
+			const createdAt = `${time} on ${date}`;
 
 			let content = $element.find('div.news-card-content div').text();
 			content = content.substring(0, content.indexOf('\n'));
@@ -112,9 +112,9 @@ const getMoreNews = (options, callback) => {
 
 			const time = $element.find('div.news-card-title div.news-card-author-time span.time').text();
 
-			const date = $element.find('div.news-card-author-time').children().last().text();
+			const date = $element.find('div.news-card-author-time span.date').text();
 
-			const createdAt = `${time} ${date}`;
+			const createdAt = `${time} on ${date}`;
 
 			let content = $element.find('div.news-card-content div').text();
 			content = content.substring(0, content.indexOf('\n'));
