@@ -16,7 +16,7 @@ const inshorts = require('inshorts-news-api');
 //specify language, category of news you want
 var options = {
   lang: 'language',
-  category: 'category'
+  category: 'category' 
 }
 
 //use getNews for first time, it will return first 25 posts and an unique id
