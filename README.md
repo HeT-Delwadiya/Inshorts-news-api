@@ -160,6 +160,12 @@ Response
     "news_offset": "87w7oet4-1"
 }
 ```
+## Demo
+Live at https://newsclub.hetdelwadiya.dev
+
+Repo - https://github.com/HeT-Delwadiya/NewsClub-Backend
+
+
 ## About Me
 
-<a href="https://www.linkedin.com/in/het-delwadiya/" target="_blank">Het Delwadiya</a>
+<a href="https://hetdelwadiya.dev" target="_blank">Het Delwadiya</a>
