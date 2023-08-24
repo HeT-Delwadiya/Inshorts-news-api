@@ -27,14 +27,14 @@ console.log(newsData);
 var options = {
   language: 'language',
   category: 'category',
-  news_offset: 'unique_key'
+  news_offset: 'news_offset from previous response'
 }
 
-//use getNews with news_offset for next time, it will return next 10 posts and an unique id
+//use getNews with news_offset for next time, it will return next 10 posts and news_offset for next call
 const newsData = await inshorts.getNews(options);
 console.log(newsData);
 ```
-Pass the 'options' object as a parameter to this function. Define keys language, category for getNews and it will return 10 news posts with news_offset. this news_offset will be used for next call which will return next 10 news posts and updated news_offset.
+Pass the 'options' object as a parameter to this function. Define keys language, category for getNews and it will return 10 news posts with news_offset. This news_offset will be used for next call which will return the next 10 news posts and updated news_offset.
 
 Note: You have to store the news_offset provided from first call and you have to pass it in the next call to get next 10 news posts.
 
